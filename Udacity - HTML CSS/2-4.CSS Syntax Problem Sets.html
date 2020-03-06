@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<!-- Instructions: Replicate the same styling seen in the kitten image below. -->
+
+<html>
+<head>
+    <title>Style an Image Quiz</title>
+    <style>
+    	.kitten-image {
+           border: dashed #fa8072;
+           box-shadow: 3px 3px 5px 6px #ccc;
+           cursor: pointer;
+    	}
+
+    	.udacity-text {
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 60px;
+            color: #8001ff;
+            text-decoration: underline;
+            text-transform: uppercase;
+    	}
+          /* missing id */
+        #menu  {
+          text-align: center;
+        }
+
+        /* missing class */
+        .item {
+          color: red;
+        }
+
+        /* missing class */
+        .picture  {
+          border-radius: 5px;
+        }
+
+        /* missing class */
+        .description  {
+          font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <h1>Style an image</h1>
+        <img src="http://udacity.github.io/fend/lessons/L3/problem-set/02-style-an-image/kitten.jpg" alt="kitten" class="kitten-image">
+            <!-- Image credit: Nicolas Suzor, https://www.flickr.com/photos/nicsuzor/ - via Flickr, Creative Commons. -->
+        <hr> 
+    </p>
+    <p>
+        <h1>Style the font</h1>
+        <h1 class="udacity-text">udacity</h1>
+        <hr>
+    </p>
+    <p>
+        <h1>Writing selector</h1>
+        <div id="menu">
+            <h1 class="item">Chicken Clay Pot</h1>
+            <img src="img/clay-pot.jpg" alt="clay pot" class="picture">
+            <p class="description">Crispy rice baked in clay pot topped with chicken and vegetables</p>
+        </div>
+        <hr>
+    </p>
+</body>
+</html>

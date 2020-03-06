@@ -1,0 +1,226 @@
+*** Selector ***
+
+3 types of selector and 4 ways of doing it
+
+- tag selector
+- class selector
+	- class element selector
+- id selector
+
+----------------------------
+
+*** Tag Selector *** 
+
+Using tag selector, it applies to all items with this tag. example h1
+
+h1 {
+  color: green;
+}
+
+----------------------------
+
+*** class Attribute Selector *** 
+
+It is very useful and can applies to all items using this class. Multiple items can use the same class.
+You can use multiple classes at once and order doesn't matter.
+
+.book-summary {
+  color: blue;
+}
+
+Example: 
+
+.right {
+  text-align: right;
+}
+
+<div class="right"> </div>
+<p class="hightlight module right"></p>
+
+----------------------------
+
+*** class element selector style ***
+
+If we don't want to create another class to manage the style of <img> tag, we can use like that. Append the class name with element tag.
+
+<div class="author-box">
+	<img src="author.jpg" alt="author photo">
+	<p class='author-text'>Yadana</p>
+</div>
+
+
+.author-box img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	float:left;
+}
+
+----------------------------
+*** id attribute selector *** 
+
+One Unique id attribute selector can only exist in one page. If another item wants to use the same style, it needs to have different unique id name.
+
+#site-description {
+  color: red;
+}
+
+
+----------------------------
+
+*** CSS Unites *** 
+
+2 types => Absolute , Relative
+
+When describing the width of the road,
+Absolute is like 7.2 meter
+RElative is like 2 cars wide
+
+Abosolute unit in CSS : px, mm, cm, in
+
+Relative unit in CSS: %, em, rem, pt, pc (pica), ex, ch, vw, vh, vmin,vmax
+
+-----------------------------
+
+*** Colors ***
+
+Red 	0,255
+Green 	0,255
+Blue	0,255
+
+body{
+	background-color: rgb(255,0,255);
+}
+
+** Transparant Setting as 4th parameter **
+rgb(255,0,255,0.45)
+
+
+** Hexadecimal **
+
+Red 	00,FF
+Green 	00,FF
+Blue 	00,FF
+
+body{
+	background-color: #ff00ff;
+}
+
+** Shorthand Hexadecimal **
+
+body{
+	background-color: #00f;
+}
+
+
+------------------------------
+
+** Adding style sheet to HTML **
+
+<head>
+  <title>My Webpage</title>
+  <!-- ... -->
+  <link href="path-to-stylesheet/stylesheet.css" rel="stylesheet">
+  <!-- ... -->
+</head>
+
+----------------------------
+
+*** CSS Box Model ***
+
+Content			: text, images, etc
+
+Padding			: transparent area around the content, inside the box.
+
+Border			: goes around the padding and the content.
+
+Margin			: space between the boxes.
+
+box-sizing:boder-box 	=> defining the width and height of the entire box.
+
+
+---------------------------
+
+*** Two Types of Elements ***
+
+Block Elements		: p, div, h1, h2, etc
+
+Inline element		: link, underline text, etc
+
+---------------------------
+
+*** Resetting the default margin and padding *** 
+
+use the selector * to select all elements
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+---------------------------
+
+*** float ***
+
+With float property, element can be pushed to the left or to the right.
+
+float:left
+
+---------------------------
+
+*** to auto align or center the element **
+
+can use margin-left and margin-right as auto, which will make div or element as center.
+
+.container{
+	width: 1140px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+---------------------------
+
+*** Margin ***
+
+margin: top right bottom left
+
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	is same as
+	
+	margin: 20px auto 0 auto;
+	
+---------------------------
+
+*** Border **
+
+Border can be used to define 3 things.
+-border width
+-line type
+-color
+
+border-top: 1px solid #333;		(width,lineType,color)
+
+---------------------------
+
+*** to make image or element round ***
+
+border-radius: 50%;
+
+---------------------------
+
+*** Relative & Absolute Positioning ***
+
+always set the partent class of the absolute class as relative.
+
+.parent{
+	position: relative;
+}
+
+.child{
+	position: absolute;
+}
+
+---------------------------
