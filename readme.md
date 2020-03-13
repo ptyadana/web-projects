@@ -9,3 +9,5 @@ Compilation of HTML, CSS, bootstrap related projects, notes.
 **Udemy - Python and Django Full Stack Web Developer Bootcamp - HTML CSS**: only HTML, CSS, bootstrap portions from [Python and Django Full Stack Web Developer Bootcamp](https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/) by  Jose Portilla
 
 **Spectrum Project**: Inspried by SPECTRUM V - Ellsworth Kelly.
+
+![screenshot](https://raw.githubusercontent.com/ptyadana/web-projects/master/Spectrum%20Project/spectrum-project-screenshot.png)
