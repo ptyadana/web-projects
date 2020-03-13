@@ -1,0 +1,16 @@
+/* selected tag{
+    property: value
+} */
+
+h1{
+    color: red;
+}
+
+p{
+    color: rgb(255, 0, 100);
+}
+
+/* rgba => with alpha for transparent (0 to 1 : transparent to opaque) */
+li{
+    color:rgba(0, 255, 0, 0.9);
+}

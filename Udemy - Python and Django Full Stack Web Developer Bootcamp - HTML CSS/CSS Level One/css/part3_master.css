@@ -1,0 +1,39 @@
+/* * means every elements
+*{
+    color: black;
+} */
+
+
+
+.firstDiv{
+    color: red;
+}
+
+.secondDiv{
+    color: blue;
+}
+
+#uniqueId{
+    color:green;
+    font-weight: bold;
+    text-decoration:line-through;
+}
+
+/* + means any ul elements near h3 element 
+Adjacent sibling selectors*/
+h3 + ul{
+    border: purple 2px dotted;
+}
+
+/*Descendant selectors*/
+li a{
+    color: red;
+}
+
+
+/*Attribute selectors*/
+li a[href="http://wwww.google.com"]{
+    color: rebeccapurple;
+    font-size: 20px;
+    border: 1px solid orange;
+}

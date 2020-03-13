@@ -1,3 +1,30 @@
+*** New Project for CSS ***
+
+1) reset the margin, padding and box-sizing and global html declaration
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+2) for html, import normalize css.
+
+<link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+
+
+3) import Grid system.
+
+
+----------------------------
 *** Selector ***
 
 3 types of selector and 4 ways of doing it
@@ -221,6 +248,23 @@ always set the partent class of the absolute class as relative.
 
 .child{
 	position: absolute;
+}
+
+---------------------------
+
+*** to have slow transitions like button color changing ****
+
+transition: background-color 0.2s, border 0.2s, color 0.2s;
+
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 ---------------------------

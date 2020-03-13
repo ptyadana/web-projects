@@ -1,0 +1,21 @@
+body{
+    /* background-color: grey; */
+    background: url(https://www.smartertravel.com/uploads/2017/08/Beach-Bag-Essentials-Cover-1400x500.jpg);
+    background-repeat: no-repeat;
+}
+
+div{
+    background-color: yellow;
+    border-color: blue;
+    border-width: 5px;
+    border-style: double;
+}
+
+p{
+    color:orange;
+}
+
+span{
+    background-color: red;
+    color: white;
+}
