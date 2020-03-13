@@ -1,0 +1,16 @@
+#top{
+    border: 5px solid blue;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+
+    /* top right bottom left */
+    /* margin: 10px 20px 10px 20px; */
+}
+
+#bottom{
+    border: 5px solid red;
+    width: 50%;
+    text-align: center;
+    padding: 200px;
+}

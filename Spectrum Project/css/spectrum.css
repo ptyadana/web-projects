@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    font-family: 'Gochi Hand', cursive;
+}
+
+a:active,
+a:link,
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: orangered;
+}
+
+div{
+    width: 60%;
+    margin: auto;
+}
+
+td{
+    height: 320px;
+    width: 180px;
+    border: 6px solid white;
+}
+
+.color1{
+    background-color:#50514F;
+}
+
+.color2{
+    background-color:#F25F5C;
+}
+
+.color3{
+    background-color:#FFE066;
+}
+
+.color4{
+    background-color:#247BA0;
+}
+
+.color5{
+    background-color:#70C1B3;
+}
