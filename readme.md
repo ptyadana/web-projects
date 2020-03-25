@@ -9,6 +9,8 @@ Compilation of HTML, CSS, bootstrap related projects, notes.
 
 **Udemy - Python and Django Full Stack Web Developer Bootcamp - HTML CSS Javascript**: only HTML, CSS, bootstrap, Javascript, JQuery portions from [Python and Django Full Stack Web Developer Bootcamp](https://www.udemy.com/course/python-and-django-full-stack-web-developer-bootcamp/) by  Jose Portilla
 
+**Colt Steele Code Camp**: Free Code Camp by Colt. Being a big fan of his courses, I just follow along these videos again even though these are for complete beginners.[Colt Steele Code Camp](https://www.youtube.com/watch?v=rxHVlTM_iNk) by Colt Steele
+
 ---
 ## Projects
 **Spectrum Project**: Inspried by SPECTRUM V - Ellsworth Kelly.
