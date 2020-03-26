@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tables Demo</title>
+</head>
+
+<style>
+  table {
+    border-collapse: collapse;
+    border: 1px solid black;
+  }
+
+  td,
+  tr,
+  th {
+    border: 1px solid black;
+  }
+</style>
+
+<body>
+  <h1>Tables!</h1>
+  <table>
+    <caption>List of stoutest living single-trunk trees by species</caption>
+    <thead>
+      <tr>
+        <th>Species</th>
+        <th>Diameter Meters</th>
+        <th>Diameter Feet</th>
+        <th>Tree Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Montezuma cypress</td>
+        <td>11.62</td>
+        <td>38.1</td>
+        <td>Árbol del Tule</td>
+      </tr>
+      <tr>
+        <td>Baobabs</td>
+        <td>10.64</td>
+        <td>34.9</td>
+        <td>Sunland Baobab</td>
+      </tr>
+      <tr>
+        <td>Coast redwood</td>
+        <td>8.9</td>
+        <td>29.2</td>
+        <td>Jupiter</td>
+      </tr>
+      <tr>
+        <td>Giant sequoia</td>
+        <td>8.85</td>
+        <td>29.0</td>
+        <td>General Grant</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Average Diameter</td>
+        <td>10.0</td>
+        <td>32.8</td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <h2>Second Version</h2>
+  <table>
+    <caption>List of stoutest living single-trunk trees by species</caption>
+    <thead>
+      <tr>
+        <th rowspan="2">Species</th>
+        <th colspan="2">Diameter</th>
+        <th rowspan="2">Tree Name</th>
+      </tr>
+      <tr>
+        <th>Meters</th>
+        <th>Feet</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Montezuma cypress</td>
+        <td>11.62</td>
+        <td>38.1</td>
+        <td>Árbol del Tule</td>
+      </tr>
+      <tr>
+        <td>Baobabs</td>
+        <td>10.64</td>
+        <td>34.9</td>
+        <td>Sunland Baobab</td>
+      </tr>
+      <tr>
+        <td>Coast redwood</td>
+        <td>8.9</td>
+        <td>29.2</td>
+        <td>Jupiter</td>
+      </tr>
+      <tr>
+        <td>Giant sequoia</td>
+        <td>8.85</td>
+        <td>29.0</td>
+        <td>General Grant</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td>Average Diameter</td>
+        <td>10.0</td>
+        <td>32.8</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+
+</html>
