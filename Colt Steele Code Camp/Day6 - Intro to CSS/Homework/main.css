@@ -1,0 +1,52 @@
+/* START BY INCLUDING THIS CSS FILE IN THE index.html FILE */
+
+/* 1. give the body a background of lightsteelblue AND a steelblue 10px border */
+body{
+    background-color: lightsteelblue;
+    border: 1px;
+}
+
+/* 2. Make all H2 elements darkblue (text color not bg) */
+h2{
+    color: darkblue;
+}
+
+/* 3. Make all <i> elements lightyellow AND 40 pixels font size */
+i{
+    color: lightyellow;
+    font-size: 40px;
+}
+
+/* 4. Make all superscript elements orangered and 20px font size */
+sup{
+    color: orangered;
+    font-size: 20px;
+}
+
+/* 5. Give the h1 a background of aquamarine and make it an inline element*/
+h1{
+    background-color: aquamarine;
+    display: inline;
+}
+
+/* 6.  Give the ordered list a 2 pixel wide, orangered dashed border */
+ol{
+    border:2px dashed orangered ;
+}
+
+/* 7. Make the image 300 pixels wide AND make it take up a whole line of space*/
+img{
+    width: 300px;
+    display: block;
+}
+
+/* 8. Make the horizontal rule disappear USING CSS */
+hr{
+    /* opacity: 0; */
+    display: none;
+}
+
+/* BONUS make all <li> elements uppercase text (through CSS) */
+li{
+    text-transform: uppercase;
+}
