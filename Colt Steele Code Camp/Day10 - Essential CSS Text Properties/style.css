@@ -1,0 +1,49 @@
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 100;
+    font-style: normal;
+    font-family: Verdana;
+    padding: 30px;
+    text-decoration: underline wavy #ffd1dc;
+    text-transform: lowercase;
+    text-shadow: 3px 3px #89aee1;
+  }
+  
+  p {
+    font-size: 10px;
+  /*   line-height: 100px; */
+  /*   word-spacing: 100px; */
+  /*   letter-spacing: 10px; */
+  }
+  
+  nav,ul, li {
+    display: inline-block;
+  }
+  ul a {
+    font-size: 15px;
+    color: steelblue;
+    margin: 0 20px;
+    text-transform: uppercase;
+  }
+  
+  p a {
+    font-size: 20px;
+  }
+  
+  #brand {
+    letter-spacing: 10px;
+    text-decoration: none;
+    color: pink;
+    text-decoration: overline underline  wavy #89aee1;
+  }
+  
+  
+  body{
+    font-family: Lucida Console, Monaco, monospace;
+  }
+  
+  
+  h2 {
+    text-shadow: -2px 2px  magenta, -4px 4px cyan, -6px 6px yellow;
+  }
